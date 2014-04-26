@@ -1,0 +1,36 @@
+div.headline {text-align: left;
+-webkit-margin-start: 2px;
+-webkit-margin-end: 2px;
+-webkit-padding-before: 0.35em;
+-webkit-padding-start: 0.75em;
+-webkit-padding-end: 0.75em;
+-webkit-padding-after: 0.625em;
+border: 2px groove threedface;
+    height: 30px; font-weight: bold; color: #555;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aaaaaa), to(#dddddd));
+    background: -moz-linear-gradient(100% 100% 90deg, #aaaaaa, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#aaaaaa',GradientType=0 )
+ }
+div.headbody {-webkit-margin-start: 2px;
+-webkit-margin-end: 2px;
+-webkit-padding-before: 0.35em;
+-webkit-padding-start: 0.75em;
+-webkit-padding-end: 0.75em;
+-webkit-padding-after: 0.625em;
+border: 2px groove threedface;margin-top:0px;overflow: hidden;width: auto;clear: both;
+     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aaaaaa), to(#dddddd));
+    background: -moz-linear-gradient(100% 100% 90deg, #aaaaaa, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#aaaaaa',GradientType=0 ) }
+div.headbody3 {width: 99%; text-align: left; padding: 10px 10px 10px 10px; border: 0px solid #999999;  border-top:none; background: #999999; margin-bottom: 10px; }
+.headbody a, .headbody a:visited, .headbody a:active {    text-decoration: none; }
+.headbody a:hover {text-decoration: none;}
+span.shouthis {float: right; padding-right: 10px;}
+span.shoutextra{float: right; padding-right: 10px; line-height: 21px;}
+span.news {float: right; padding-right: 10px; line-height: 30px;}
+span.news a, span.news a:visited, span.news a:active {text-decoration: none; }
+span.news a:hover {text-decoration: none; }
+div.newshead { width: 99%; text-align: left; border: 1px solid #999999;background: #999999;  padding: 5px;}
+td.newshead {width: 99%; text-align: left; border: 1px solid #999999;background: #999999;  padding: 5px;}
+div.news_space { background:transparent; height:20px; }
+div.news_button { width: 100px; float: right; margin-right: -50px;}
+pre.enfo {font-size:9pt;font-family: 'Courier New', monospace;line-height:normal;}
